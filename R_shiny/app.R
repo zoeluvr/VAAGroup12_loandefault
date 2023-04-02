@@ -294,13 +294,9 @@ boardbody <-
     tabItems(
       tabItem("intro", 
               h2("Welcome to our Loan Default Prediction APP"),
-              fluidRow(
-                column(width = 6, img(src = 'pic/second_row.png', width = "100%")),
-                column(width = 6, img(src = 'pic/first_row.png', width = "100%"))
-              ),
-              fluidRow(
-                column(width = 12, img(src = 'pic/second_row_1.png', width = "100%"))
-              )
+              p(class = "intro-paragraph", "Loan defaulters description: In the first part of this shiny app, we will give you a description of the customers' historical records, including the loan amount, education situation, and employment pattern."),
+              p(class = "intro-paragraph", "Correlation exploration: The second part will explore the correlation between different factors to see if there are linear or non-linear correlations, as well as the strength and direction of the relationship."),
+              p(class = "intro-paragraph", "Prediction model: In the last part, we built a prediction model to forecast the loan repayment results based on different input information.")
       ),
       tabItem("eda_1", eda_tab_1),
       tabItem("eda_2", eda_tab_2),

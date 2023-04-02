@@ -5,9 +5,9 @@ account: vaagroup12
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8743519
-bundleId: 7038856
+bundleId: 7038881
 url: https://vaagroup12.shinyapps.io/R_shiny_Group12/
-when: 1680442310.48574
-lastSyncTime: 1680442310.48575
+when: 1680442817.45722
+lastSyncTime: 1680442817.45723
 asMultiple: FALSE
 asStatic: FALSE

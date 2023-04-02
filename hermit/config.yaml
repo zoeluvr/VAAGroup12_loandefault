@@ -1,0 +1,40 @@
+baseURL: https://example.com
+languageCode: en-us
+defaultContentLanguage: en
+title: Loan Default Prediction
+theme: hermit
+pygmentsCodefences: yes
+pygmentsUseClasses: yes
+rssLimit: 10
+copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
+  4.0 International License.
+enableEmoji: yes
+author:
+  name: John Doe
+blackfriday: {}
+taxonomies:
+  tag: tags
+params:
+  code_copy_button: yes
+  bgImg : "/dollar.png"
+  dateform: Jan 2, 2006
+  dateformNum: '2006-01-02'
+  dateformNumTime: 2006-01-02 15:04 -0700
+  dateformShort: Jan 2
+  homeSubtitle: Visual Analysis and Applcation - Group 12
+  justifyContent: no
+  relatedPosts: no
+menu:
+  main:
+    - name: Introduction
+      url: introduction/
+      weight: 10
+    - name: Proposal
+      url: proposal/
+      weight: 20
+    - name: Poster
+      url: poster/
+      weight: 30
+    - name: Shiny App
+      url: shiny_app/
+      weight: 40
