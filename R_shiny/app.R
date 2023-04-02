@@ -3,7 +3,7 @@
 #---------install and load packages-----------------
 
 pacman::p_load(shiny, readxl, ggstatsplot, ggplot2, shinydashboard, plotly, lubridate, 
-               corrplot, knitr, tidymodels, yardstick, ranger, tidyverse)
+               ggcorrplot, corrplot, PMCMRplus, knitr, tidymodels, yardstick, ranger, tidyverse)
 
 #---------import data---------------------------------
 
